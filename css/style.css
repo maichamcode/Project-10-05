@@ -1,0 +1,232 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    
+    font-family: Arial, Helvetica, sans-serif   ;
+}
+
+.header {
+    height: 100px;
+    background-image: url(../images/bg-img-2.jpg);
+}
+.header>h1{
+    padding-top: 30px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.main {
+    border-top: 1px solid #cccc;
+    border-bottom: 1px solid #cccc;
+    display: flex;
+}
+
+.sidebar {
+   
+    border-right: 1px solid #cccc;
+    width: 20%;
+    position: sticky;
+    height: 100vh;
+    top: 0;
+}
+
+.sidebar nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar nav ul li {
+    padding-left: 10px;
+    padding-top: 25px;
+    height: 40px;
+    list-style-type: none;
+}
+
+.sidebar nav ul li:hover {
+    background-color: #f5e3b0;
+    height: 40px;
+    list-style-type: none;
+}
+
+.sidebar nav ul li a {
+    color: gray;
+    text-decoration: none;
+}
+.sidebar nav ul li a:hover{
+    color: white;
+    
+}
+
+.content {
+
+    width: 80%;
+}
+
+.footer {
+    background-color: gray;
+}
+
+/* css love */
+.love-content {
+    margin-left: 10px;
+    width: 98%;
+}
+
+.love-title {
+    background-color: #f5c438;
+    height: 40px;
+    color: white;
+}
+.love-title p{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.love-main{
+    padding-left: 10px;
+}
+.love-main>p{
+    color: #bf8f06;
+}
+
+.love-img{
+    gap: 30px;
+    display: flex;
+}
+.love-img p{
+    width: 75%;
+    margin-top: 0;
+}
+
+/* end love */
+
+/* css healthy */
+.healthy-content {
+    margin-left: 10px;
+    width: 98%;
+}
+
+.healthy-title {
+    background-color: #f5c438;
+    height: 40px;
+    color: white;
+}
+.healthy-title p{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.healthy-main{
+    padding-left: 10px;
+}
+.healthy-main>p{
+    color: #bf8f06;
+}
+
+.healthy-img{
+    gap: 30px;
+    display: flex;
+}
+.healthy-img p{
+    width: 75%;
+    margin-top: 0;
+}
+/* end css healthy */
+
+/* travel css */
+.travel-content {
+    margin-left: 10px;
+    width: 98%;
+}
+.travel-title {
+    background-color: #f5c438;
+    height: 40px;
+    color: white;
+}
+.travel-title p{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.travel-main{
+    padding-left: 10px;
+}
+.travel-main>p{
+    color: #bf8f06;
+}
+/* end travel css */
+
+/* css ẩm thực */
+.amthuc-content {
+    margin-left: 10px;
+    width: 98%;
+}
+.amthuc-title {
+    background-color: #f5c438;
+    height: 40px;
+    color: white;
+}
+.amthuc-title p{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.amthuc-main{
+    margin-top: 10px;
+    display: flex;
+
+    padding-left: 10px;
+}
+.amthuc-nav{
+    width: 82%;
+}
+.amthuc-img{
+    width: 13%;
+}
+
+/* end css ẩm thực */
+/* css âm nhạc */
+.music-content {
+    margin-left: 10px;
+    width: 98%;
+}
+
+.music-title {
+    background-color: #f5c438;
+    height: 40px;
+    color: white;
+}
+.music-title p{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.music-main{
+    padding-left: 10px;
+}
+.music-main>p{
+    color: #bf8f06;
+}
+
+.music-total{
+    gap: 30px;
+    display: flex;
+}
+.music-list{
+    width: 80%;
+}
+.music-img{
+    width: 15%;
+}
+/* end css âm nhạc */
+
+/* one top */
+.button button{
+    margin-right: 10px;
+    margin-bottom: 10px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    /* float: right; */
+    background-color: black;
+    color: white;
+    height: 40px;
+    border-radius: 15px;
+}
